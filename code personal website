@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana's Professional Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #555;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .skills, .certifications {
+            margin-top: 1.5rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ana's Professional Portfolio</h1>
+        <p>Welcome to my professional page where you can explore my expertise and accomplishments.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! My name is Ana, and I am an experienced professional with a background in project management, compliance auditing, and operations management. I thrive on delivering results and leading teams toward success.</p>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <ul>
+            <li>Managed 26 field staff to deliver over 8,000 compliance audits annually, including cybersecurity.</li>
+            <li>Led product strategies in healthcare, sustainability, and food safety industries.</li>
+            <li>Oversaw P&L management and growth strategies for key accounts.</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <p>Here are some of my key skills:</p>
+        <ul>
+            <li>Project Management</li>
+            <li>Data Analysis and Visualization (Tableau, Power BI, Excel)</li>
+            <li>Agile and Scrum Methodologies</li>
+            <li>Client and Vendor Relationship Management</li>
+            <li>Strategic Planning</li>
+        </ul>
+    </section>
+
+    <section id="certifications" class="container">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Six Sigma Black Belt</li>
+            <li>Project Management Professional (PMP)</li>
+            <li>ISO 27001 Cybersecurity Manager</li>
+            <li>ServiceNow IT Leadership Professional</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, please email me at <a href="mailto:ana@example.com">ana@example.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ana. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
